@@ -126,6 +126,53 @@
             "group": "Goal Options"
         },
 		
+		"standard_stage_progression":{
+			"display_name": "Standard Stage Progression",
+            "description": [
+                "When enabled, bosses will only be in logic if you can logically reach the end of their area. You're expected to do the area, then its boss.",
+                "When disabled, you're allowed and it's likely to be required to do the boss before fully finishing the area.",
+				"It's recommended to leave it disabled for a more open experience."
+            ],
+            "type": "Toggle",
+            "default": false,
+			"hidden": true,
+            "group": "Weapon Logic Options"
+		},
+		"strict_boss_logic":{
+			"display_name": "Strict Boss Logic",
+            "description": [
+                "When enabled, defeating a boss will have the same prerequisites as defeating it flawlessly.",
+                "Recommended if you're playing with Doomed modifier, where everything kills you in one hit anyway.",
+				"The rest of weapon logic was already written with Doomed modifier in mind."
+            ],
+            "type": "Toggle",
+            "default": false,
+			"hidden": true,
+            "group": "Weapon Logic Options"
+		},
+		
+		"priority_boss_locations":{
+            "type": "Range",
+			"display_name": "Priority Boss Locations",
+            "description": [
+                "How many bosses (other than Jeh'Oul and Supreme Jeh'Oul) will be guaranteed to hold progression or useful items."
+            ],
+            "range_start": 0,
+            "default": 4,
+            "range_end": 11,
+            "group": "Item and Location Options"
+        },
+		"priority_shrine_locations":{
+            "type": "Range",
+			"display_name": "Priority Shrine Locations",
+            "description": [
+                "How many Sin Shrines (or their respective Shrine Gifts) will be guaranteed to hold progression or useful items."
+            ],
+            "range_start": 0,
+            "default": 2,
+            "range_end": 6,
+            "group": "Item and Location Options"
+        },
 		"include_achievements":{
 			"display_name": "Include Achievements",
             "description": [
@@ -144,6 +191,40 @@
             "default": false,
             "group": "Item and Location Options"
         },
+		"books_of_sin":{
+			"display_name": "Books of Sin",
+            "description": [
+                "Replaces the 3 food items with Books of Sin. You will need all 3 books to receive Sin Shrine items.",
+				"To reduce backtracking, you may still interact with Sin Shrines before having all 3 books. Doing so will grant you their Shrine Gift.",
+				"Then, once you have all 3 books, you may unlock all your obtained Shrine Gifts all at once."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Item and Location Options"
+        },
+		"enemysanity":{
+			"display_name": "Enemysanity",
+            "description": [
+                "Adds locations for defeating every unique enemy type."
+            ],
+            "type": "Toggle",
+            "default": false,
+			"hidden": true,
+            "group": "Item and Location Options"
+		},
+		"worst_bloodserpent_location_ever":{
+			"display_name": "Worst Bloodserpent Location Ever",
+            "description": [
+                "Enable this if you're playing on Mortal Mode or Demon Mode.",
+                "This accounts for the extreme edge case where if you're playing on either of these 2 difficulties, have Enemysanity enabled,",
+				"Standard Stage Progression disabled, Weapon of Pride obtained and Heart of the Baneful unlocked,",
+				"the final boss fight can be the first time you can kill a Bloodserpent."
+            ],
+            "type": "Toggle",
+            "default": false,
+			"hidden": true,
+            "group": "Item and Location Options"
+		},
 		"include_endgame_potions":{
             "type": "Choice",
 			"display_name": "Include Endgame Potions",
@@ -175,10 +256,11 @@
             "default": true,
             "group": "Item and Location Options"
         },
-		"books_of_sin":{
-			"display_name": "Books of Sin",
+		"exclude_underworld_lust_chests":{
+			"display_name": "Exclude Underworld Lust Chests",
             "description": [
-                "Replaces the 3 food items with Books of Sin. You will need all 3 books to interact with Sin Shrines."
+                "Ensures that Angel Bikini Chest and Fire Wings Chest locations will not have progression or useful items.",
+				"These two chests are both near the end of their respective areas and require Weapon of Lust, resulting in very tedious backtracking."
             ],
             "type": "Toggle",
             "default": true,
@@ -188,9 +270,7 @@
 		"random_starting_weapon":{
 			"display_name": "Random Starting Weapon",
             "description": [
-                "Randomizes which weapon is unlocked from the start. If disabled, you start with Weapon of Pride.",
-				"WARNING: Unfinished option! There is currently no weapon logic implemented to see which locations are accessible with which weapons.",
-				"If you enable this option and come across a location that is impossible with your current weapons, resort to Weapon of Pride."
+                "Randomizes which weapon is unlocked from the start. If disabled, you start with Weapon of Pride."
             ],
             "type": "Toggle",
             "default": false,
