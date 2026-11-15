@@ -263,7 +263,7 @@
       "requires": ""
     },
     {
-      "name": "Statue of Lust",
+      "name": "Shrine of Lust",
       "region": "Aftermath Part 2",
       "category": [
         "Aftermath - Sliding memory",
@@ -335,7 +335,7 @@
       "requires": ""
     },
     {
-      "name": "Statue of Greed",
+      "name": "Shrine of Greed",
       "region": "Terrestrial Vale Part 1",
       "category": [
         "Terrestrial Vale - Falling memory",
@@ -443,7 +443,7 @@
       "requires": ""
     },
     {
-      "name": "Statue of Wrath",
+      "name": "Shrine of Wrath",
       "region": "Sinister Grotto Part 1",
       "category": [
         "Sinister Grotto - Spider memory",
@@ -614,7 +614,7 @@
       "requires": ""
     },
     {
-      "name": "Statue of Gluttony",
+      "name": "Shrine of Gluttony",
       "region": "The Underworld Part 1",
       "category": [
         "The Underworld - Falling memory",
@@ -767,7 +767,7 @@
       "requires": ""
     },
     {
-      "name": "Statue of Envy",
+      "name": "Shrine of Envy",
       "region": "The Acropolis of Anguish",
       "category": [
         "The Acropolis of Anguish - Gate memory",
@@ -893,7 +893,7 @@
       "requires": ""
     },
     {
-      "name": "Statue of Sloth",
+      "name": "Shrine of Sloth",
       "region": "Path of Decay",
       "category": [
         "Path of Decay - Ambush memory",
