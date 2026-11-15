@@ -1,7 +1,7 @@
 # Object classes from AP core, to represent an entire MultiWorld and this individual World that's part of it
 from typing import Any
 from worlds.AutoWorld import World
-from BaseClasses import MultiWorld, CollectionState, Item
+from BaseClasses import MultiWorld, CollectionState, Item, LocationProgressType
 
 # Object classes from Manual -- extending AP core -- representing items and locations that are used in generation
 from ..Items import ManualItem
@@ -54,7 +54,35 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     locationNamesToRemove: list[str] = [] # List of location names
 
     # Add your code here to calculate which locations to remove
-
+    
+    # I'm not here to remove locations, I'm here to set them to priority or excluded
+    if (is_option_enabled(multiworld, player, "exclude_underworld_lust_chests")):
+        for location in multiworld.get_unfilled_locations(player=player):
+            if "Angel Bikini Chest" in location.name or "Fire Wings Chest" in location.name:
+                location.progress_type = LocationProgressType.EXCLUDED
+                
+    boss_locations = ["Defeat Myougi in The Floating Keep", "Defeat Pr'gora", "Defeat Electram", "Defeat Amethyst", "Defeat Dark Annihilator", "Defeat Terravine", "Defeat Kratarac", "Defeat Ancient Constructs", "Defeat Myougi in The Library", "Defeat Twin Orcs", "Defeat Azurel"]
+    shrine_locations = []
+    priority_bosses = world.options.priority_boss_locations.value
+    priority_shrines = world.options.priority_shrine_locations.value
+    shrine_list = ["Shrine of Lust", "Shrine of Greed", "Shrine of Wrath", "Shrine of Gluttony", "Shrine of Envy", "Shrine of Sloth"]
+    shrine_locations = shrine_list #better stuff coming soon iykyk
+    
+    
+    for _ in range(priority_bosses):
+        bs = world.random.choice(boss_locations)
+        for location in multiworld.get_unfilled_locations(player=player):
+            if bs in location.name:
+                location.progress_type = LocationProgressType.PRIORITY
+        boss_locations.remove(bs)
+        
+    for _ in range(priority_shrines):
+        sh = world.random.choice(shrine_locations)
+        for location in multiworld.get_unfilled_locations(player=player):
+            if sh in location.name:
+                location.progress_type = LocationProgressType.PRIORITY
+        shrine_locations.remove(sh)
+    
     for region in multiworld.regions:
         if region.player == player:
             for location in list(region.locations):
@@ -149,6 +177,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
 
     for _ in range(essence_to_remove_count):
         de = world.random.choice(demess)
+        demess.remove(de) # Somehow, this code just worked correctly without this line and I only now realized I should have added it. Better be safe and add it now anyway.
         item_pool.remove(de)
 
     return item_pool
