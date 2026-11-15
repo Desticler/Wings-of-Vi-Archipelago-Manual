@@ -1,0 +1,79 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
+  "Nowhere": {
+    "starting": true,
+    "connects_to": [
+      "The Floating Keep",
+      "Aftermath Part 1",
+      "Aftermath Part 2",
+      "Terrestrial Vale Part 1",
+      "Terrestrial Vale Part 2",
+      "Sinister Grotto Part 1",
+      "Sinister Grotto Part 2",
+      "The Underworld Part 1",
+      "The Underworld Part 2",
+      "The Acropolis of Anguish",
+      "The Library",
+      "The Chambers",
+      "Path of Decay",
+      "Heart of the Baneful"
+    ],
+    "requires": ""
+  },
+  "The Floating Keep": {
+    "connects_to": [],
+    "requires": "|The Floating Keep|"
+  },
+  "Aftermath Part 1": {
+    "connects_to": [],
+    "requires": "|Aftermath Part 1|"
+  },
+  "Aftermath Part 2": {
+    "connects_to": [],
+    "requires": "|Aftermath Part 2|"
+  },
+  "Terrestrial Vale Part 1": {
+    "connects_to": [],
+    "requires": "|Terrestrial Vale Part 1|"
+  },
+  "Terrestrial Vale Part 2": {
+    "connects_to": [],
+    "requires": "|Terrestrial Vale Part 2|"
+  },
+  "Sinister Grotto Part 1": {
+    "connects_to": [],
+    "requires": "|Sinister Grotto Part 1|"
+  },
+  "Sinister Grotto Part 2": {
+    "connects_to": [],
+    "requires": "|Sinister Grotto Part 2|"
+  },
+  "The Underworld Part 1": {
+    "connects_to": [],
+    "requires": "|The Underworld Part 1|"
+  },
+  "The Underworld Part 2": {
+    "connects_to": [],
+    "requires": "|The Underworld Part 2|"
+  },
+  "The Acropolis of Anguish": {
+    "connects_to": [],
+    "requires": "|The Acropolis of Anguish|"
+  },
+  "The Library": {
+    "connects_to": [],
+    "requires": "|The Library|"
+  },
+  "The Chambers": {
+    "connects_to": [],
+    "requires": "|The Chambers|"
+  },
+  "Path of Decay": {
+    "connects_to": [],
+    "requires": "|Path of Decay|"
+  },
+  "Heart of the Baneful": {
+    "connects_to": [],
+    "requires": "{hotbReq()}"
+  }
+}

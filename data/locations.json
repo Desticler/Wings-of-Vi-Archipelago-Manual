@@ -1,0 +1,1031 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+  "data": [
+    {
+      "name": "Your First Secret!",
+      "region": "Nowhere",
+      "category": [
+        "Achievements",
+        "Misc Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Purified!",
+      "region": "Nowhere",
+      "category": [
+        "Achievements",
+        "Misc Achievements"
+      ],
+      "requires": "|@Weapons:7|"
+    },
+    {
+      "name": "Loremaster!",
+      "region": "The Floating Keep",
+      "category": [
+        "The Floating Keep - Sleeping memory",
+        "Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Run Vi, Run Like The Wind!",
+      "region": "The Floating Keep",
+      "category": [
+        "The Floating Keep - Sleeping memory",
+        "Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Isn't It Beautiful?",
+      "region": "The Floating Keep",
+      "category": [
+        "The Floating Keep - Sleeping memory",
+        "Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "No Way Back!",
+      "region": "The Floating Keep",
+      "category": [
+        "The Floating Keep - Sleeping memory",
+        "Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Pink Skin Chest",
+      "region": "The Floating Keep",
+      "category": [
+        "The Floating Keep - Current time",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Rainbow Trail Chest",
+      "region": "The Floating Keep",
+      "category": [
+        "The Floating Keep - Current time",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Rainbow Tail Chest",
+      "region": "The Floating Keep",
+      "category": [
+        "The Floating Keep - Current time",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Unicorn Horn Chest",
+      "region": "The Floating Keep",
+      "category": [
+        "The Floating Keep - Current time",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Birthday Ribbon Chest",
+      "region": "The Floating Keep",
+      "category": [
+        "The Floating Keep - Current time",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Sassy Potion Chest",
+      "region": "The Floating Keep",
+      "category": [
+        "The Floating Keep - Current time",
+        "Angel Potions"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Clumsy Potion Chest",
+      "region": "The Floating Keep",
+      "category": [
+        "The Floating Keep - Current time",
+        "Mortal Potions"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Hothead Potion Chest",
+      "region": "The Floating Keep",
+      "category": [
+        "The Floating Keep - Current time",
+        "Mortal Potions"
+      ],
+      "requires": "|@Weapons:7|"
+    },
+    {
+      "name": "Chunky Potion Chest",
+      "region": "The Floating Keep",
+      "category": [
+        "The Floating Keep - Current time",
+        "Demon Potions"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Masochist Potion Chest",
+      "region": "The Floating Keep",
+      "category": [
+        "The Floating Keep - Current time",
+        "Demon Potions"
+      ],
+      "requires": "|@Weapons:7|"
+    },
+    {
+      "name": "Bow Chest",
+      "region": "Aftermath Part 1",
+      "category": [
+        "Aftermath - Portal memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Cat Ears Chest",
+      "region": "Aftermath Part 1",
+      "category": [
+        "Aftermath - Portal memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Demon Horns Chest",
+      "region": "Aftermath Part 1",
+      "category": [
+        "Aftermath - Portal memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Chicken",
+      "region": "Aftermath Part 1",
+      "category": [
+        "Aftermath - Portal memory",
+        "Food Locations"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Whiskers Chest",
+      "region": "Aftermath Part 1",
+      "category": [
+        "Aftermath - Portal memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Defeat Myougi in The Floating Keep",
+      "region": "Aftermath Part 1",
+      "category": [
+        "Aftermath - Myougi memory",
+        "Bosses"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Shield Breaker!",
+      "region": "Aftermath Part 1",
+      "category": [
+        "Aftermath - Myougi memory",
+        "Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "First Encounter!",
+      "region": "Aftermath Part 1",
+      "category": [
+        "Aftermath - Myougi memory",
+        "Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "First Encounter - Flawless!",
+      "region": "Aftermath Part 1",
+      "category": [
+        "Aftermath - Myougi memory",
+        "Flawless Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Wings of Myougi Chest",
+      "region": "Aftermath Part 1",
+      "category": [
+        "Aftermath - Myougi memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Young Demon Skin Chest",
+      "region": "Aftermath Part 2",
+      "category": [
+        "Aftermath - Sliding memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Cat Tail Chest",
+      "region": "Aftermath Part 2",
+      "category": [
+        "Aftermath - Sliding memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Scarf Chest",
+      "region": "Aftermath Part 2",
+      "category": [
+        "Aftermath - Sliding memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Statue of Lust",
+      "region": "Aftermath Part 2",
+      "category": [
+        "Aftermath - Sliding memory",
+        "Sin Shrines"
+      ],
+      "requires": "{YamlDisabled(books_of_sin)} OR |@Books of Sin:3|"
+    },
+    {
+      "name": "Defeat Pr'gora",
+      "region": "Aftermath Part 2",
+      "category": [
+        "Aftermath - Pr'gora memory",
+        "Bosses"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "First Blood!",
+      "region": "Aftermath Part 2",
+      "category": [
+        "Aftermath - Pr'gora memory",
+        "Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "First Blood - Flawless!",
+      "region": "Aftermath Part 2",
+      "category": [
+        "Aftermath - Pr'gora memory",
+        "Flawless Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Ponytail Chest",
+      "region": "Terrestrial Vale Part 1",
+      "category": [
+        "Terrestrial Vale - Falling memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Fruit",
+      "region": "Terrestrial Vale Part 1",
+      "category": [
+        "Terrestrial Vale - Falling memory",
+        "Food Locations"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Antennae Chest",
+      "region": "Terrestrial Vale Part 1",
+      "category": [
+        "Terrestrial Vale - Falling memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bunny Companion from Villager",
+      "region": "Terrestrial Vale Part 1",
+      "category": [
+        "Terrestrial Vale - Falling memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Statue of Greed",
+      "region": "Terrestrial Vale Part 1",
+      "category": [
+        "Terrestrial Vale - Falling memory",
+        "Sin Shrines"
+      ],
+      "requires": "{YamlDisabled(books_of_sin)} OR |@Books of Sin:3|"
+    },
+    {
+      "name": "Defeat Electram",
+      "region": "Terrestrial Vale Part 1",
+      "category": [
+        "Terrestrial Vale - Electram memory",
+        "Bosses"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Shocking!",
+      "region": "Terrestrial Vale Part 1",
+      "category": [
+        "Terrestrial Vale - Electram memory",
+        "Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Shocking - Flawless!",
+      "region": "Terrestrial Vale Part 1",
+      "category": [
+        "Terrestrial Vale - Electram memory",
+        "Flawless Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Fairy Wings Chest",
+      "region": "Terrestrial Vale Part 2",
+      "category": [
+        "Terrestrial Vale - Cave memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bunny Ears Chest",
+      "region": "Terrestrial Vale Part 2",
+      "category": [
+        "Terrestrial Vale - Cave memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bunny Tail Chest",
+      "region": "Terrestrial Vale Part 2",
+      "category": [
+        "Terrestrial Vale - Cave memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bee Wings Chest",
+      "region": "Terrestrial Vale Part 2",
+      "category": [
+        "Terrestrial Vale - Cave memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Defeat Amethyst",
+      "region": "Terrestrial Vale Part 2",
+      "category": [
+        "Terrestrial Vale - Amethyst memory",
+        "Bosses"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bejeweled!",
+      "region": "Terrestrial Vale Part 2",
+      "category": [
+        "Terrestrial Vale - Amethyst memory",
+        "Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bejeweled - Flawless!",
+      "region": "Terrestrial Vale Part 2",
+      "category": [
+        "Terrestrial Vale - Amethyst memory",
+        "Flawless Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Mushroom",
+      "region": "Sinister Grotto Part 1",
+      "category": [
+        "Sinister Grotto - Spider memory",
+        "Food Locations"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Statue of Wrath",
+      "region": "Sinister Grotto Part 1",
+      "category": [
+        "Sinister Grotto - Spider memory",
+        "Sin Shrines"
+      ],
+      "requires": "{YamlDisabled(books_of_sin)} OR |@Books of Sin:3|"
+    },
+    {
+      "name": "Underdog!",
+      "region": "Sinister Grotto Part 1",
+      "category": [
+        "Sinister Grotto - Spider memory",
+        "Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Jetpack Chest",
+      "region": "Sinister Grotto Part 1",
+      "category": [
+        "Sinister Grotto - Spider memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Wrong Place, Wrong Time!",
+      "region": "Sinister Grotto Part 1",
+      "category": [
+        "Sinister Grotto - Spider memory",
+        "Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bat Wings Chest",
+      "region": "Sinister Grotto Part 1",
+      "category": [
+        "Sinister Grotto - Spider memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Defeat Dark Annihilator",
+      "region": "Sinister Grotto Part 1",
+      "category": [
+        "Sinister Grotto - Dark Annihilator memory",
+        "Bosses"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Hawkeye!",
+      "region": "Sinister Grotto Part 1",
+      "category": [
+        "Sinister Grotto - Dark Annihilator memory",
+        "Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "404!",
+      "region": "Sinister Grotto Part 1",
+      "category": [
+        "Sinister Grotto - Dark Annihilator memory",
+        "Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "404 - Flawless!",
+      "region": "Sinister Grotto Part 1",
+      "category": [
+        "Sinister Grotto - Dark Annihilator memory",
+        "Flawless Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Gotta Go Fast!",
+      "region": "Sinister Grotto Part 2",
+      "category": [
+        "Sinister Grotto - Laser memory",
+        "Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Miner's Helm Chest",
+      "region": "Sinister Grotto Part 2",
+      "category": [
+        "Sinister Grotto - Laser memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Pickaxe Chest",
+      "region": "Sinister Grotto Part 2",
+      "category": [
+        "Sinister Grotto - Laser memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Drive By!",
+      "region": "Sinister Grotto Part 2",
+      "category": [
+        "Sinister Grotto - Laser memory",
+        "Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Defeat Terravine",
+      "region": "Sinister Grotto Part 2",
+      "category": [
+        "Sinister Grotto - Terravine memory",
+        "Bosses"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Economic!",
+      "region": "Sinister Grotto Part 2",
+      "category": [
+        "Sinister Grotto - Terravine memory",
+        "Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Kick Grass!",
+      "region": "Sinister Grotto Part 2",
+      "category": [
+        "Sinister Grotto - Terravine memory",
+        "Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Kick Grass - Flawless!",
+      "region": "Sinister Grotto Part 2",
+      "category": [
+        "Sinister Grotto - Terravine memory",
+        "Flawless Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Darkheim Robes from Villager",
+      "region": "Sinister Grotto Part 2",
+      "category": [
+        "Sinister Grotto - Terravine memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Lingerer Tail Chest",
+      "region": "The Underworld Part 1",
+      "category": [
+        "The Underworld - Falling memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Statue of Gluttony",
+      "region": "The Underworld Part 1",
+      "category": [
+        "The Underworld - Falling memory",
+        "Sin Shrines"
+      ],
+      "requires": "{YamlDisabled(books_of_sin)} OR |@Books of Sin:3|"
+    },
+    {
+      "name": "Boshy Companion Chest",
+      "region": "The Underworld Part 1",
+      "category": [
+        "The Underworld - Falling memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Fire Head Chest",
+      "region": "The Underworld Part 1",
+      "category": [
+        "The Underworld - Falling memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Angel Bikini Chest",
+      "region": "The Underworld Part 1",
+      "category": [
+        "The Underworld - Falling memory",
+        "Secrets"
+      ],
+      "requires": "|Weapon of Lust|"
+    },
+    {
+      "name": "Defeat Kratarac",
+      "region": "The Underworld Part 1",
+      "category": [
+        "The Underworld - Kratarac memory",
+        "Bosses"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Grave Danger!",
+      "region": "The Underworld Part 1",
+      "category": [
+        "The Underworld - Kratarac memory",
+        "Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Grave Danger - Flawless!",
+      "region": "The Underworld Part 1",
+      "category": [
+        "The Underworld - Kratarac memory",
+        "Flawless Achievements"
+      ],
+      "requires": ""
+    },
+	{
+      "name": "Top Path Underworld Key",
+      "region": "The Underworld Part 2",
+      "category": [
+        "The Underworld - Portal memory",
+        "Underworld Keys"
+      ],
+      "requires": ""
+    },
+	{
+      "name": "Right Path Underworld Key",
+      "region": "The Underworld Part 2",
+      "category": [
+        "The Underworld - Portal memory",
+        "Underworld Keys"
+      ],
+      "requires": ""
+    },
+	{
+      "name": "Bottom Path Underworld Key",
+      "region": "The Underworld Part 2",
+      "category": [
+        "The Underworld - Portal memory",
+        "Underworld Keys"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Fire Wings Chest",
+      "region": "The Underworld Part 2",
+      "category": [
+        "The Underworld - Portal memory",
+        "Secrets"
+      ],
+      "requires": "|Weapon of Lust|"
+    },
+	{
+      "name": "Final Underworld Key",
+      "region": "The Underworld Part 2",
+      "category": [
+        "The Underworld - Portal memory",
+        "Underworld Keys"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Defeat Ancient Constructs",
+      "region": "The Underworld Part 2",
+      "category": [
+        "The Underworld - Ancient Constructs memory",
+        "Bosses"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Picky!",
+      "region": "The Underworld Part 2",
+      "category": [
+        "The Underworld - Ancient Constructs memory",
+        "Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stone Cold Killer!",
+      "region": "The Underworld Part 2",
+      "category": [
+        "The Underworld - Ancient Constructs memory",
+        "Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stone Cold Killer - Flawless!",
+      "region": "The Underworld Part 2",
+      "category": [
+        "The Underworld - Ancient Constructs memory",
+        "Flawless Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Angel Knight Helmet Chest",
+      "region": "The Acropolis of Anguish",
+      "category": [
+        "The Acropolis of Anguish - Gate memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Statue of Envy",
+      "region": "The Acropolis of Anguish",
+      "category": [
+        "The Acropolis of Anguish - Gate memory",
+        "Sin Shrines"
+      ],
+      "requires": "{YamlDisabled(books_of_sin)} OR |@Books of Sin:3|"
+    },
+    {
+      "name": "Angel Knight Armor Chest",
+      "region": "The Acropolis of Anguish",
+      "category": [
+        "The Acropolis of Anguish - Gate memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Corrupted Weapon Chest",
+      "region": "The Library",
+      "category": [
+        "The Acropolis of Anguish - Library memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Defeat Myougi in The Library",
+      "region": "The Library",
+      "category": [
+        "The Acropolis of Anguish - Myougi memory",
+        "Bosses"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Deja Vu!",
+      "region": "The Library",
+      "category": [
+        "The Acropolis of Anguish - Myougi memory",
+        "Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Deja Vu - Flawless!",
+      "region": "The Library",
+      "category": [
+        "The Acropolis of Anguish - Myougi memory",
+        "Flawless Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Blob Companion Chest",
+      "region": "The Chambers",
+      "category": [
+        "The Acropolis of Anguish - Chamber memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Executioner's Hood Chest",
+      "region": "The Chambers",
+      "category": [
+        "The Acropolis of Anguish - Chamber memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Angel Knight Wings Chest",
+      "region": "The Chambers",
+      "category": [
+        "The Acropolis of Anguish - Chamber memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Defeat Twin Orcs",
+      "region": "The Chambers",
+      "category": [
+        "The Acropolis of Anguish - Twin Orcs memory",
+        "Bosses"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Double Trouble!",
+      "region": "The Chambers",
+      "category": [
+        "The Acropolis of Anguish - Twin Orcs memory",
+        "Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Double Trouble - Flawless!",
+      "region": "The Chambers",
+      "category": [
+        "The Acropolis of Anguish - Twin Orcs memory",
+        "Flawless Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Angel Knight Sword Chest",
+      "region": "The Chambers",
+      "category": [
+        "The Acropolis of Anguish - Twin Orcs memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Demon Snake Tail Chest",
+      "region": "Path of Decay",
+      "category": [
+        "Path of Decay - Ambush memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Statue of Sloth",
+      "region": "Path of Decay",
+      "category": [
+        "Path of Decay - Ambush memory",
+        "Sin Shrines"
+      ],
+      "requires": "{YamlDisabled(books_of_sin)} OR |@Books of Sin:3|"
+    },
+    {
+      "name": "Demon Aura Chest",
+      "region": "Path of Decay",
+      "category": [
+        "Path of Decay - Ambush memory",
+        "Secrets"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Defeat Azurel",
+      "region": "Path of Decay",
+      "category": [
+        "Path of Decay - Azurel memory",
+        "Bosses"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Long Live The Queen!",
+      "region": "Path of Decay",
+      "category": [
+        "Path of Decay - Azurel memory",
+        "Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Long Live The Queen - Flawless!",
+      "region": "Path of Decay",
+      "category": [
+        "Path of Decay - Azurel memory",
+        "Flawless Achievements"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Defeat Jeh'Oul",
+      "region": "Heart of the Baneful",
+      "category": [
+        "Heart of the Baneful - Jeh'Oul memory",
+        "Bosses"
+      ],
+      "requires": "",
+	  "dont_place_item_category": [
+        "Memory Unlocks",
+        "Weapons",
+        "Essence",
+		"Books of Sin"
+      ]
+    },
+    {
+      "name": "Demon Lord Vanquisher?",
+      "region": "Heart of the Baneful",
+      "category": [
+        "Heart of the Baneful - Jeh'Oul memory",
+        "Achievements"
+      ],
+      "requires": "",
+	  "dont_place_item_category": [
+        "Memory Unlocks",
+        "Weapons",
+        "Essence",
+		"Books of Sin"
+      ]
+    },
+    {
+      "name": "Demon Lord Vanquisher - Flawless!",
+      "region": "Heart of the Baneful",
+      "category": [
+        "Heart of the Baneful - Jeh'Oul memory",
+        "Flawless Achievements"
+      ],
+      "requires": "",
+	  "dont_place_item_category": [
+        "Memory Unlocks",
+        "Weapons",
+        "Essence",
+		"Books of Sin"
+      ]
+    },
+    {
+      "name": "Defeat Supreme Jeh'Oul",
+      "region": "Heart of the Baneful",
+      "victory": true,
+      "category": [
+        "Heart of the Baneful - Jeh'Oul Final Form memory"
+      ],
+      "requires": "|Weapon of Pride|",
+	  "dont_place_item_category": [
+        "Memory Unlocks",
+        "Weapons",
+        "Essence",
+		"Books of Sin"
+      ]
+    },
+    {
+      "name": "Savior!",
+      "region": "Heart of the Baneful",
+      "category": [
+        "Heart of the Baneful - Jeh'Oul Final Form memory",
+        "Achievements"
+      ],
+      "requires": "|Weapon of Pride|",
+	  "dont_place_item_category": [
+        "Memory Unlocks",
+        "Weapons",
+        "Essence",
+		"Books of Sin"
+      ]
+    },
+    {
+      "name": "Savior - Flawless!",
+      "region": "Heart of the Baneful",
+      "category": [
+        "Heart of the Baneful - Jeh'Oul Final Form memory",
+        "Flawless Achievements"
+      ],
+      "requires": "|Weapon of Pride|",
+	  "dont_place_item_category": [
+        "Memory Unlocks",
+        "Weapons",
+        "Essence",
+		"Books of Sin"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+	"Cosmetics": {
+		"hidden": true
+	},
+	"Secret Cosmetics": {
+		"hidden": true
+	},
+	"Achievement Cosmetics": {
+		"hidden": true,
+    	"yaml_option": ["include_achievements"]
+	},
+	"Boss Cosmetics": {
+		"hidden": true,
+    	"yaml_option": ["include_achievements"]
+	},
+	"Other Cosmetics": {
+		"hidden": true,
+    	"yaml_option": ["include_achievements"]
+	},
+	"Flawless Cosmetics": {
+		"hidden": true,
+    	"yaml_option": ["include_flawless_achievements"]
+	},
+	"Angel Potions": {
+		"hidden": true
+	},
+	"Mortal Potions": {
+		"hidden": true
+	},
+	"Demon Potions": {
+		"hidden": true
+	},
+	"Underworld Keys": {
+		"hidden": true,
+    	"yaml_option": ["include_underworld_keys"]
+	},
+	"Food": {
+    	"yaml_option": ["!books_of_sin"]
+	},
+	"Books of Sin": {
+    	"yaml_option": ["books_of_sin"]
+	},
+	"Secrets": {
+		"hidden": true
+	},
+	"Bosses": {
+		"hidden": true
+	},
+	"Sin Shrines": {
+		"hidden": true
+	},
+	"Food Locations": {
+		"hidden": true
+	},
+	"Achievements": {
+		"hidden": true,
+    	"yaml_option": ["include_achievements"]
+	},
+	"Flawless Achievements": {
+		"hidden": true,
+    	"yaml_option": ["include_flawless_achievements"]
+	}
+}

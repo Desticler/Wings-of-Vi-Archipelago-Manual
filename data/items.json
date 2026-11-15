@@ -1,0 +1,1061 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+  "data": [
+    {
+      "count": 1,
+      "name": "The Floating Keep",
+      "category": [
+        "Memory Unlocks"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Aftermath Part 1",
+      "category": [
+        "Memory Unlocks"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Aftermath Part 2",
+      "category": [
+        "Memory Unlocks"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Terrestrial Vale Part 1",
+      "category": [
+        "Memory Unlocks"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Terrestrial Vale Part 2",
+      "category": [
+        "Memory Unlocks"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Sinister Grotto Part 1",
+      "category": [
+        "Memory Unlocks"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Sinister Grotto Part 2",
+      "category": [
+        "Memory Unlocks"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "The Underworld Part 1",
+      "category": [
+        "Memory Unlocks"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "The Underworld Part 2",
+      "category": [
+        "Memory Unlocks"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "The Acropolis of Anguish",
+      "category": [
+        "Memory Unlocks"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "The Library",
+      "category": [
+        "Memory Unlocks"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "The Chambers",
+      "category": [
+        "Memory Unlocks"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Path of Decay",
+      "category": [
+        "Memory Unlocks"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Weapon of Pride",
+      "category": [
+        "Weapons"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Weapon of Lust",
+      "category": [
+        "Weapons"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Weapon of Greed",
+      "category": [
+        "Weapons"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Weapon of Wrath",
+      "category": [
+        "Weapons"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Weapon of Gluttony",
+      "category": [
+        "Weapons"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Weapon of Envy",
+      "category": [
+        "Weapons"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Weapon of Sloth",
+      "category": [
+        "Weapons"
+      ],
+      "progression": true
+    },
+    {
+      "count": "30",
+      "name": "Demonic Essence",
+      "category": [
+        "Essence"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Glasses",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Heads",
+        "Achievement Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Bow",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Heads",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Cat Ears",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Heads",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Demon Horns",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Heads",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Antennae",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Heads",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Electram Horns",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Heads",
+        "Boss Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Bunny Ears",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Heads",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Robot Head",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Heads",
+        "Boss Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Miner's Helm",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Heads",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Flower",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Heads",
+        "Boss Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Fire Head",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Heads",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Construct Eye",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Heads",
+        "Boss Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Angel Knight Helmet",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Heads",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Devil Horns",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Heads",
+        "Boss Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Executioner's Hood",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Heads",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Azurel Horns",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Heads",
+        "Boss Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Jeh'Oul Horns",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Heads",
+        "Boss Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Supreme Jeh'Oul Horns",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Heads",
+        "Boss Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Unicorn Horn",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Heads",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Wings of Rubi",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Wings",
+        "Achievement Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Wings of Ira",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Wings",
+        "Other Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Wings of Myougi",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Wings",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Skeletal Wings",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Wings",
+        "Boss Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Fairy Wings",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Wings",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Bee Wings",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Wings",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Wings of Amethyst",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Wings",
+        "Boss Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Jetpack",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Wings",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Bat Wings",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Wings",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Robot Wings",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Wings",
+        "Flawless Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Fire Wings",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Wings",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Stone Wings",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Wings",
+        "Flawless Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Angel Knight Wings",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Wings",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Wings of Azurel",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Wings",
+        "Boss Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Wings of Jeh'Oul",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Wings",
+        "Flawless Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Myougi Tail",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Tails",
+        "Boss Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Cat Tail",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Tails",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Electram Tail",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Tails",
+        "Boss Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Bunny Tail",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Tails",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Skeletal Lingerer Tail",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Tails",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Demon Snake Tail",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Tails",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Jeh'Oul Tail",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Tails",
+        "Boss Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Supreme Jeh'Oul Tail",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Tails",
+        "Boss Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Rainbow Tail",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Tails",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Staff of Purity",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Accessories",
+        "Other Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Whiskers",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Accessories",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Scarf",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Accessories",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Ponytail",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Accessories",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Pickaxe",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Accessories",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Kratarac Accessory",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Accessories",
+        "Boss Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Pigtails",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Accessories",
+        "Boss Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Mace",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Accessories",
+        "Boss Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Axe",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Accessories",
+        "Boss Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Angel Knight Sword",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Accessories",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Birthday Ribbon",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Accessories",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Young Demon Skin",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Skins",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Demon Skin",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Skins",
+        "Flawless Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Electram Skin",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Skins",
+        "Flawless Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Terravine Skin",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Skins",
+        "Flawless Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Stone Skin",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Skins",
+        "Boss Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Pink Skin",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Skins",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Outfit of Rubi",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Outfits",
+        "Achievement Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Outfit of Myougi",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Outfits",
+        "Flawless Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Outfit of Amethyst",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Outfits",
+        "Flawless Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Darkheim Robes",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Outfits",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Angel Bikini",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Outfits",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Angel Knight Armor",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Outfits",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Orc Armor",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Outfits",
+        "Flawless Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Outfit of Azurel",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Outfits",
+        "Flawless Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Scaly Potion",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Potions",
+        "Flawless Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Sassy Potion",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Potions",
+        "Angel Potions"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Clumsy Potion",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Potions",
+        "Mortal Potions"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Hothead Potion",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Potions",
+        "Mortal Potions"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Chunky Potion",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Potions",
+        "Demon Potions"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Masochist Potion",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Potions",
+        "Demon Potions"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Bunny",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Companions",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Dog",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Companions",
+        "Achievement Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Boshy",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Companions",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Pet Rock",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Companions",
+        "Flawless Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Blob",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Companions",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Corrupted Weapon",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Effects",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Fire Trail",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Effects",
+        "Flawless Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Demon Aura",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Effects",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Rainbow Trail",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Effects",
+        "Secret Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Sparkle",
+      "category": [
+        "Cosmetics",
+        "Cosmetic Effects",
+        "Achievement Cosmetics"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Chicken",
+      "category": [
+        "Food"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Fruit",
+      "category": [
+        "Food"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Mushroom",
+      "category": [
+        "Food"
+      ],
+      "filler": true
+    },
+	{
+      "count": 1,
+      "name": "Book of Sin, Volume 1",
+      "category": [
+        "Books of Sin"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Book of Sin, Volume 2",
+      "category": [
+        "Books of Sin"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Book of Sin, Volume 3",
+      "category": [
+        "Books of Sin"
+      ],
+      "progression": true
+    }
+  ]
+}

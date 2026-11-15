@@ -1,0 +1,201 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
+    "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
+    "core": {
+        "goal":{
+            "_comment": [
+                "Using 'goal' as the name of an option let you override some of the generated goal parameters"
+            ],
+            "display_name": "The End Objective",
+            "description": "How to End your Randomized playthrough.",
+            "aliases": {"easiest": 0},
+            "hidden": false
+        },
+        "death_link": {
+			"display_name": "Death Link",
+            "default": false
+        },
+        "filler_traps": {
+            "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
+            "values": {
+                "recommended": 20
+            }
+        }
+    },
+    "user": {
+        "_commented_out_option":{
+            "type": "Toggle",
+            "default": true
+        },
+        "_Example_Toggle":{
+            "description": [
+                "This is a Toggle",
+                "A simple boolean, aka True or False set the initial value with \"default\""
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Example Options"
+        },
+        "_Example_Choice":{
+            "type": "Choice",
+            "description": [
+                "This is a Choice",
+                "Let the user pick from a list of values",
+                "allow_custom_value let a player define their own text value",
+                "Currently the only use for Choice in Manual outside of hooks is the goal"
+            ],
+            "values": {
+                "start":0,
+                "test":1
+             },
+            "default": 0,
+            "allow_custom_value": false,
+            "group": "Example Options"
+        },
+        "_Example_Range":{
+            "type": "Range",
+            "description": [
+                "This is a Range",
+                "Allow the player to specify a value between 'start' and 'end'",
+                "if you include a \"values\" you can define the label for certain values",
+                "Currently the only use for Range in Manual outside of hooks is 'filler_trap'"
+            ],
+            "range_start": 0,
+            "default": 1,
+            "range_end": 5,
+            "values": {"example": 2},
+            "group": "Example Options"
+        },
+
+        "_DLC_enabled":{
+            "display_name": "DLC Enabled",
+            "description": "Is the Dlc enabled?",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template"
+            ],
+            "default": true
+        },
+		
+		"demonic_essence_available":{
+            "type": "Range",
+			"display_name": "Demonic Essence Available",
+            "description": [
+                "How much Demonic Essence is added to the pool.",
+                "For every Demonic Essence you add to the pool, a random cosmetic is added to your starting inventory."
+            ],
+            "range_start": 0,
+            "default": 15,
+            "range_end": 30,
+            "group": "Goal Options"
+        },
+		"demonic_essence_required":{
+            "type": "Range",
+			"display_name": "Demonic Essence Required",
+            "description": [
+                "How much Demonic Essence is needed to unlock Heart of the Baneful.",
+				"This is a percentage. So, for example, if you set demonic_essence_available to 15 and demonic_essence_required to 80, you'll need 12 Demonic Essence."
+            ],
+            "range_start": 0,
+            "default": 80,
+            "range_end": 100,
+            "group": "Goal Options"
+        },
+		"memory_unlocks_required":{
+            "type": "Range",
+			"display_name": "Memory Unlocks Required",
+            "description": [
+                "How many Memory Unlocks are needed to unlock Heart of the Baneful."
+            ],
+            "range_start": 1,
+            "default": 1,
+            "range_end": 13,
+            "group": "Goal Options"
+        },
+		"weapons_required":{
+            "type": "Range",
+			"display_name": "Weapons Required",
+            "description": [
+                "How many Weapons are needed to unlock Heart of the Baneful."
+            ],
+            "range_start": 1,
+            "default": 1,
+            "range_end": 7,
+            "group": "Goal Options"
+        },
+		
+		"include_achievements":{
+			"display_name": "Include Achievements",
+            "description": [
+                "Adds non-flawless achievements as locations and adds the cosmetics you get for them as filler items."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Item and Location Options"
+        },
+		"include_flawless_achievements":{
+			"display_name": "Include Flawless Achievements",
+            "description": [
+                "Adds flawless achievements as locations and adds the cosmetics you get for them as filler items."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Item and Location Options"
+        },
+		"include_endgame_potions":{
+            "type": "Choice",
+			"display_name": "Include Endgame Potions",
+            "description": [
+                "Adds the endgame potion chests as locations and their respective potions as filler items.",
+                "disabled: No endgame potion chests are included.",
+                "angel: Chest for Sassy Potion is added to the pool.",
+                "mortal: Chests for Sassy, Clumsy and Hothead Potions are added to the pool.",
+				"demon: Chests for Sassy, Clumsy, Hothead, Chunky and Masochist Potions are added to the pool.",
+				"If Hothead Potion and/or Masochist Potion chests are included, they additionally require having all 7 weapons."
+            ],
+            "values": {
+                "disabled":0,
+                "angel":1,
+				"mortal":2,
+				"demon":3
+             },
+            "default": 0,
+            "allow_custom_value": false,
+            "group": "Item and Location Options"
+        },
+		"include_underworld_keys":{
+			"display_name": "Include Underworld Keys",
+            "description": [
+                "Adds locations for the 4 keys found during Portal memory of The Underworld.",
+				"This aims to address the fact that normally, Portal memory is a pretty challenging section of the game with only one location near its end."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Item and Location Options"
+        },
+		"books_of_sin":{
+			"display_name": "Books of Sin",
+            "description": [
+                "Replaces the 3 food items with Books of Sin. You will need all 3 books to interact with Sin Shrines."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Item and Location Options"
+        },
+		
+		"random_starting_weapon":{
+			"display_name": "Random Starting Weapon",
+            "description": [
+                "Randomizes which weapon is unlocked from the start. If disabled, you start with Weapon of Pride.",
+				"WARNING: Unfinished option! There is currently no weapon logic implemented to see which locations are accessible with which weapons.",
+				"If you enable this option and come across a location that is impossible with your current weapons, resort to Weapon of Pride."
+            ],
+            "type": "Toggle",
+            "default": false,
+			"hidden": true
+        }
+    }
+
+}

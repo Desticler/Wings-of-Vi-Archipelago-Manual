@@ -1,0 +1,21 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "WingsofVi",
+  "creator": "Desticler",
+  "death_link": true,
+  "filler_item_name": "Angelic Essence",
+  "starting_items": [
+		{
+			"items": ["The Floating Keep"]
+		},
+		{
+			"items": ["Weapon of Pride"],
+			"yaml_option": ["!random_starting_weapon"]
+		},
+		{
+			"item_categories": ["Weapons"],
+			"random": 1,
+			"yaml_option": ["random_starting_weapon"]
+		}
+  ]
+}
