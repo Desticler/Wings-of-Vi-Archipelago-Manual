@@ -66,7 +66,11 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     priority_bosses = world.options.priority_boss_locations.value
     priority_shrines = world.options.priority_shrine_locations.value
     shrine_list = ["Shrine of Lust", "Shrine of Greed", "Shrine of Wrath", "Shrine of Gluttony", "Shrine of Envy", "Shrine of Sloth"]
-    shrine_locations = shrine_list #better stuff coming soon iykyk
+    gift_list = ["Gift of Lust", "Gift of Greed", "Gift of Wrath", "Gift of Gluttony", "Gift of Envy", "Gift of Sloth"]
+    if (is_option_enabled(multiworld, player, "books_of_sin")):
+        shrine_locations = gift_list
+    else:
+        shrine_locations = shrine_list
     
     
     for _ in range(priority_bosses):
@@ -231,7 +235,31 @@ def after_create_item(item: ManualItem, world: World, multiworld: MultiWorld, pl
 
 # This method is run towards the end of pre-generation, before the place_item options have been handled and before AP generation occurs
 def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
-    pass
+    if (is_option_enabled(multiworld, player, "books_of_sin")):
+        gift_lust = [i for i in multiworld.get_items() if "Gift of Lust" in i.name][0]
+        gift_greed = [i for i in multiworld.get_items() if "Gift of Greed" in i.name][0]
+        gift_wrath = [i for i in multiworld.get_items() if "Gift of Wrath" in i.name][0]
+        gift_gluttony = [i for i in multiworld.get_items() if "Gift of Gluttony" in i.name][0]
+        gift_envy = [i for i in multiworld.get_items() if "Gift of Envy" in i.name][0]
+        gift_sloth = [i for i in multiworld.get_items() if "Gift of Sloth" in i.name][0]
+        shrine_lust = [l for l in multiworld.get_locations(player=player) if "Shrine of Lust" in l.name][0]
+        shrine_greed = [l for l in multiworld.get_locations(player=player) if "Shrine of Greed" in l.name][0]
+        shrine_wrath = [l for l in multiworld.get_locations(player=player) if "Shrine of Wrath" in l.name][0]
+        shrine_gluttony = [l for l in multiworld.get_locations(player=player) if "Shrine of Gluttony" in l.name][0]
+        shrine_envy = [l for l in multiworld.get_locations(player=player) if "Shrine of Envy" in l.name][0]
+        shrine_sloth = [l for l in multiworld.get_locations(player=player) if "Shrine of Sloth" in l.name][0]
+        shrine_lust.place_locked_item(gift_lust)
+        shrine_greed.place_locked_item(gift_greed)
+        shrine_wrath.place_locked_item(gift_wrath)
+        shrine_gluttony.place_locked_item(gift_gluttony)
+        shrine_envy.place_locked_item(gift_envy)
+        shrine_sloth.place_locked_item(gift_sloth)
+        multiworld.itempool.remove(gift_lust)
+        multiworld.itempool.remove(gift_greed)
+        multiworld.itempool.remove(gift_wrath)
+        multiworld.itempool.remove(gift_gluttony)
+        multiworld.itempool.remove(gift_envy)
+        multiworld.itempool.remove(gift_sloth)
 
 # This method is run at the very end of pre-generation, once the place_item options have been handled and before AP generation occurs
 def after_generate_basic(world: World, multiworld: MultiWorld, player: int):
