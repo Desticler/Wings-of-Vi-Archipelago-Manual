@@ -106,6 +106,9 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     early_memunlocks = ["Aftermath Part 1", "Aftermath Part 2", "Terrestrial Vale Part 1", "Terrestrial Vale Part 2", "Sinister Grotto Part 1", "Sinister Grotto Part 2"]
     starting_memunlock = multiworld.random.choice(early_memunlocks)
     multiworld.local_early_items[player][starting_memunlock] = 1
+    
+    if (is_option_enabled(multiworld, player, "disable_weapon_logic") and is_option_enabled(multiworld, player, "random_starting_weapon")):
+        multiworld.local_early_items[player]["Weapon of Pride"] = 1
 
     return item_pool
 
