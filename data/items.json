@@ -162,6 +162,54 @@
       "progression": true
     },
     {
+      "count": 1,
+      "name": "Gift of Lust",
+      "category": [
+        "Shrine Gifts"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Gift of Greed",
+      "category": [
+        "Shrine Gifts"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Gift of Wrath",
+      "category": [
+        "Shrine Gifts"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Gift of Gluttony",
+      "category": [
+        "Shrine Gifts"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Gift of Envy",
+      "category": [
+        "Shrine Gifts"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Gift of Sloth",
+      "category": [
+        "Shrine Gifts"
+      ],
+      "progression": true
+    },
+    {
       "count": "30",
       "name": "Demonic Essence",
       "category": [
