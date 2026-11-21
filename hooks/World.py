@@ -134,9 +134,19 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     # code source: https://github.com/FuzzyGamesOn/Pokemon-TCG-Ages-Manual/blob/main/manual_pokemontcgages_fuzzy/hooks/World.py
 
     starting_cosmetic_count = world.options.demonic_essence_available.value
-
+    
     if type(starting_cosmetic_count) != int:
         starting_cosmetic_count = 0
+        
+    # let's calculate how much angelic essence would be added after this hook
+    
+    total_locations = [l for l in multiworld.get_locations(player=player) if "" in l.name]
+    total_items = len(item_pool) - 30 #includes demonic essence so remove that
+    angess = len(total_locations) - total_items - 1 #includes victory location so remove that
+    
+    #print(f"Total locations: {str(len(total_locations)-1)}; item pool: {str(total_items)}")
+    
+    # Now, whenever a cosmetic would be removed and added to start inventory, if angess > 0, don't do that, instead angess -= 1
 
     starting_cosmetics = [
         {
@@ -164,22 +174,20 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         ]
 
         for _ in range(starting['random']):
-            random_starting_item = world.random.choice(possible_items)
-            multiworld.push_precollected(random_starting_item)
-            possible_items.remove(random_starting_item)
-            item_pool.remove(random_starting_item)
+            if (angess <= 0):
+                random_starting_item = world.random.choice(possible_items)
+                multiworld.push_precollected(random_starting_item)
+                possible_items.remove(random_starting_item)
+                item_pool.remove(random_starting_item)
+            else:
+                angess -= 1
 
     # okay now remove extras of demonic essence
     essence_to_remove_count = 30 - starting_cosmetic_count
-    essence_to_remove = []
-    essence_to_remove.extend(
-        name for name, i in world.item_name_to_item.items()
-        if "Essence" in i.get("category", [])
-    )
 
     demess = [
         i for i in item_pool
-        if i.name in essence_to_remove
+        if "Demonic Essence" in i.name
     ]
 
     for _ in range(essence_to_remove_count):
@@ -236,30 +244,11 @@ def after_create_item(item: ManualItem, world: World, multiworld: MultiWorld, pl
 # This method is run towards the end of pre-generation, before the place_item options have been handled and before AP generation occurs
 def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
     if (is_option_enabled(multiworld, player, "books_of_sin")):
-        gift_lust = [i for i in multiworld.get_items() if "Gift of Lust" in i.name][0]
-        gift_greed = [i for i in multiworld.get_items() if "Gift of Greed" in i.name][0]
-        gift_wrath = [i for i in multiworld.get_items() if "Gift of Wrath" in i.name][0]
-        gift_gluttony = [i for i in multiworld.get_items() if "Gift of Gluttony" in i.name][0]
-        gift_envy = [i for i in multiworld.get_items() if "Gift of Envy" in i.name][0]
-        gift_sloth = [i for i in multiworld.get_items() if "Gift of Sloth" in i.name][0]
-        shrine_lust = [l for l in multiworld.get_locations(player=player) if "Shrine of Lust" in l.name][0]
-        shrine_greed = [l for l in multiworld.get_locations(player=player) if "Shrine of Greed" in l.name][0]
-        shrine_wrath = [l for l in multiworld.get_locations(player=player) if "Shrine of Wrath" in l.name][0]
-        shrine_gluttony = [l for l in multiworld.get_locations(player=player) if "Shrine of Gluttony" in l.name][0]
-        shrine_envy = [l for l in multiworld.get_locations(player=player) if "Shrine of Envy" in l.name][0]
-        shrine_sloth = [l for l in multiworld.get_locations(player=player) if "Shrine of Sloth" in l.name][0]
-        shrine_lust.place_locked_item(gift_lust)
-        shrine_greed.place_locked_item(gift_greed)
-        shrine_wrath.place_locked_item(gift_wrath)
-        shrine_gluttony.place_locked_item(gift_gluttony)
-        shrine_envy.place_locked_item(gift_envy)
-        shrine_sloth.place_locked_item(gift_sloth)
-        multiworld.itempool.remove(gift_lust)
-        multiworld.itempool.remove(gift_greed)
-        multiworld.itempool.remove(gift_wrath)
-        multiworld.itempool.remove(gift_gluttony)
-        multiworld.itempool.remove(gift_envy)
-        multiworld.itempool.remove(gift_sloth)
+        for name in ("Lust", "Greed", "Wrath", "Gluttony", "Envy", "Sloth"):
+            item = [i for i in multiworld.get_items() if f"Gift of {name}" in i.name][0]
+            location = [l for l in multiworld.get_locations(player=player) if f"Shrine of {name}" in l.name][0]
+            location.place_locked_item(item)
+            multiworld.itempool.remove(item)
 
 # This method is run at the very end of pre-generation, once the place_item options have been handled and before AP generation occurs
 def after_generate_basic(world: World, multiworld: MultiWorld, player: int):
