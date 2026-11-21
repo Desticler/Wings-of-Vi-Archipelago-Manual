@@ -644,7 +644,7 @@
         "The Underworld - Falling memory",
         "Sin Shrines"
       ],
-      "requires": "{YamlDisabled(books_of_sin)} OR |@Books of Sin:3|"
+      "requires": ""
     },
 	{
       "name": "Gift of Gluttony",
@@ -805,7 +805,7 @@
         "The Acropolis of Anguish - Gate memory",
         "Sin Shrines"
       ],
-      "requires": "{YamlDisabled(books_of_sin)} OR |@Books of Sin:3|"
+      "requires": ""
     },
 	{
       "name": "Gift of Envy",
@@ -939,7 +939,7 @@
         "Path of Decay - Ambush memory",
         "Sin Shrines"
       ],
-      "requires": "{YamlDisabled(books_of_sin)} OR |@Books of Sin:3|"
+      "requires": ""
     },
 	{
       "name": "Gift of Sloth",
