@@ -269,7 +269,15 @@
         "Aftermath - Sliding memory",
         "Sin Shrines"
       ],
-      "requires": "{YamlDisabled(books_of_sin)} OR |@Books of Sin:3|"
+      "requires": ""
+    },
+	{
+      "name": "Gift of Lust",
+      "region": "Aftermath Part 2",
+      "category": [
+        "Shrine Gifts"
+      ],
+      "requires": "|Gift of Lust| AND |@Books of Sin:3|"
     },
     {
       "name": "Defeat Pr'gora",
@@ -341,7 +349,15 @@
         "Terrestrial Vale - Falling memory",
         "Sin Shrines"
       ],
-      "requires": "{YamlDisabled(books_of_sin)} OR |@Books of Sin:3|"
+      "requires": ""
+    },
+	{
+      "name": "Gift of Greed",
+      "region": "Terrestrial Vale Part 1",
+      "category": [
+        "Shrine Gifts"
+      ],
+      "requires": "|Gift of Greed| AND |@Books of Sin:3|"
     },
     {
       "name": "Defeat Electram",
@@ -449,7 +465,15 @@
         "Sinister Grotto - Spider memory",
         "Sin Shrines"
       ],
-      "requires": "{YamlDisabled(books_of_sin)} OR |@Books of Sin:3|"
+      "requires": ""
+    },
+	{
+      "name": "Gift of Wrath",
+      "region": "Sinister Grotto Part 1",
+      "category": [
+        "Shrine Gifts"
+      ],
+      "requires": "|Gift of Wrath| AND |@Books of Sin:3|"
     },
     {
       "name": "Underdog!",
@@ -622,6 +646,14 @@
       ],
       "requires": "{YamlDisabled(books_of_sin)} OR |@Books of Sin:3|"
     },
+	{
+      "name": "Gift of Gluttony",
+      "region": "The Underworld Part 1",
+      "category": [
+        "Shrine Gifts"
+      ],
+      "requires": "|Gift of Gluttony| AND |@Books of Sin:3|"
+    },
     {
       "name": "Boshy Companion Chest",
       "region": "The Underworld Part 1",
@@ -775,6 +807,14 @@
       ],
       "requires": "{YamlDisabled(books_of_sin)} OR |@Books of Sin:3|"
     },
+	{
+      "name": "Gift of Envy",
+      "region": "The Acropolis of Anguish",
+      "category": [
+        "Shrine Gifts"
+      ],
+      "requires": "|Gift of Envy| AND |@Books of Sin:3|"
+    },
     {
       "name": "Angel Knight Armor Chest",
       "region": "The Acropolis of Anguish",
@@ -900,6 +940,14 @@
         "Sin Shrines"
       ],
       "requires": "{YamlDisabled(books_of_sin)} OR |@Books of Sin:3|"
+    },
+	{
+      "name": "Gift of Sloth",
+      "region": "Path of Decay",
+      "category": [
+        "Shrine Gifts"
+      ],
+      "requires": "|Gift of Sloth| AND |@Books of Sin:3|"
     },
     {
       "name": "Demon Aura Chest",
