@@ -40,6 +40,9 @@
 	"Books of Sin": {
     	"yaml_option": ["books_of_sin"]
 	},
+	"Shrine Gifts": {
+    	"yaml_option": ["books_of_sin"]
+	},
 	"Secrets": {
 		"hidden": true
 	},
