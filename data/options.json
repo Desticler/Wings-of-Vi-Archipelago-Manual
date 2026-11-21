@@ -84,7 +84,7 @@
 			"display_name": "Demonic Essence Available",
             "description": [
                 "How much Demonic Essence is added to the pool.",
-                "For every Demonic Essence you add to the pool, a random cosmetic is added to your starting inventory."
+                "If a Demonic Essence would replace a random cosmetic, said cosmetic is instead added to your starting inventory."
             ],
             "range_start": 0,
             "default": 15,
@@ -284,7 +284,9 @@
 		"random_starting_weapon":{
 			"display_name": "Random Starting Weapon",
             "description": [
-                "Randomizes which weapon is unlocked from the start. If disabled, you start with Weapon of Pride."
+                "Randomizes which weapon is unlocked from the start. If disabled, you start with Weapon of Pride.",
+				"Because weapon logic isn't implemented yet, enabling this option will make Weapon of Pride local and early.",
+				"Once combat logic is implemented, this will remain as failsafe behavior in case weapon logic is disabled but random starting weapon is enabled."
             ],
             "type": "Toggle",
             "default": false
