@@ -126,6 +126,20 @@
             "group": "Goal Options"
         },
 		
+		"disable_weapon_logic":{
+			"_comment": [
+                "Weapon logic is currently unimplemented, so this is set to true. Will be set to false by default when weapon logic is implemented."
+            ],
+			"display_name": "Disable Weapon Logic",
+            "description": [
+                "Disables weapon logic, meaning which weapons you have won't be related to which locations are in logic.",
+				"If weapon logic is disabled but random_starting_weapon is enabled, Weapon of Pride will be local and early."
+            ],
+            "type": "Toggle",
+            "default": true,
+			"hidden": true,
+            "group": "Weapon Logic Options"
+		},
 		"standard_stage_progression":{
 			"display_name": "Standard Stage Progression",
             "description": [
@@ -273,8 +287,7 @@
                 "Randomizes which weapon is unlocked from the start. If disabled, you start with Weapon of Pride."
             ],
             "type": "Toggle",
-            "default": false,
-			"hidden": true
+            "default": false
         }
     }
 
