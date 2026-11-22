@@ -60,7 +60,7 @@ The goal of the manual is to unlock Heart of the Baneful by collecting enough De
 
 **Include Flawless Achievements** - Adds flawless achievements as locations and adds the cosmetics you get for them as filler items. (default: false)
 
-**Books of Sin** - Replaces the 3 food items with Books of Sin. You will need all 3 books to receive Sin Shrine items. To reduce backtracking, you may still interact with Sin Shrines before having all 3 books. Doing so will grant you their Shrine Gift. "Then, once you have all 3 books, you may unlock all your obtained Shrine Gifts all at once. (default: true)
+**Books of Sin** - Replaces the 3 food items with Books of Sin. You will need all 3 books to receive Sin Shrine items. To reduce backtracking, you may still interact with Sin Shrines before having all 3 books. Doing so will grant you their Shrine Gift. Then, once you have all 3 books, you may unlock all your obtained Shrine Gifts all at once. (default: true)
 
 **Include Endgame Potions** - Adds the endgame potion chests as locations and their respective potions as filler items. 4 options, one for completely disabling the setting and 3 for each of the difficulties. If Hothead Potion and/or Masochist Potion chests are included, they additionally require having all 7 weapons. (default: disabled)
 
