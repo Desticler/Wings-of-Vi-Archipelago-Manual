@@ -187,6 +187,16 @@
             "range_end": 6,
             "group": "Item and Location Options"
         },
+		"exclude_hotb":{
+			"display_name": "Exclude Heart of the Baneful",
+            "description": [
+                "Prevents Heart of the Baneful locations from having progression or useful items.",
+				"Note that even with this option disabled, your own progression items will never be in Heart of the Baneful."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Item and Location Options"
+        },
 		"include_achievements":{
 			"display_name": "Include Achievements",
             "description": [
@@ -281,12 +291,23 @@
             "group": "Item and Location Options"
         },
 		
+		"prehint_flawless_achievements":{
+			"display_name": "Prehint Flawless Achievements",
+            "description": [
+                "Prehints flawless achievement locations, if they're included.",
+				"This is a temporary option that will be replaced with the scoutable locations feature once it's supported by the latest stable Manual client."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Temporary Options"
+        },
+		
 		"random_starting_weapon":{
 			"display_name": "Random Starting Weapon",
             "description": [
                 "Randomizes which weapon is unlocked from the start. If disabled, you start with Weapon of Pride.",
 				"Because weapon logic isn't implemented yet, enabling this option will make Weapon of Pride local and early.",
-				"Once combat logic is implemented, this will remain as failsafe behavior in case weapon logic is disabled but random starting weapon is enabled."
+				"Once weapon logic is implemented, this will remain as failsafe behavior in case weapon logic is disabled but random starting weapon is enabled."
             ],
             "type": "Toggle",
             "default": false
