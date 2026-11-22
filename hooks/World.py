@@ -42,7 +42,21 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     This is the earliest hook called during generation, before anything else is done.
     Use it to check or modify incompatible options, or to set up variables for later use.
     """
-    pass
+    if (is_option_enabled(multiworld, player, "prehint_flawless_achievements") and is_option_enabled(multiworld, player, "include_flawless_achievements")):
+        world.options.start_location_hints.value.add("First Encounter - Flawless!")
+        world.options.start_location_hints.value.add("First Blood - Flawless!")
+        world.options.start_location_hints.value.add("Shocking - Flawless!")
+        world.options.start_location_hints.value.add("Bejeweled - Flawless!")
+        world.options.start_location_hints.value.add("404 - Flawless!")
+        world.options.start_location_hints.value.add("Kick Grass - Flawless!")
+        world.options.start_location_hints.value.add("Grave Danger - Flawless!")
+        world.options.start_location_hints.value.add("Stone Cold Killer - Flawless!")
+        world.options.start_location_hints.value.add("Deja Vu - Flawless!")
+        world.options.start_location_hints.value.add("Double Trouble - Flawless!")
+        world.options.start_location_hints.value.add("Long Live The Queen - Flawless!")
+        world.options.start_location_hints.value.add("Demon Lord Vanquisher - Flawless!")
+        world.options.start_location_hints.value.add("Savior - Flawless!")
+        
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
@@ -59,6 +73,11 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     if (is_option_enabled(multiworld, player, "exclude_underworld_lust_chests")):
         for location in multiworld.get_unfilled_locations(player=player):
             if "Angel Bikini Chest" in location.name or "Fire Wings Chest" in location.name:
+                location.progress_type = LocationProgressType.EXCLUDED
+                
+    if (is_option_enabled(multiworld, player, "exclude_hotb")):
+        for location in multiworld.get_unfilled_locations(player=player):
+            if "Defeat Jeh'Oul" in location.name or "Demon Lord Vanquisher?" in location.name or "Demon Lord Vanquisher - Flawless!" in location.name or "Savior!" in location.name or "Savior - Flawless!" in location.name:
                 location.progress_type = LocationProgressType.EXCLUDED
                 
     boss_locations = ["Defeat Myougi in The Floating Keep", "Defeat Pr'gora", "Defeat Electram", "Defeat Amethyst", "Defeat Dark Annihilator", "Defeat Terravine", "Defeat Kratarac", "Defeat Ancient Constructs", "Defeat Myougi in The Library", "Defeat Twin Orcs", "Defeat Azurel"]
